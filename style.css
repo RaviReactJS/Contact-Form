@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: linear-gradient(#87ceeb, #ffc5c5);
+}
+
+.contact_container {
+  display: flex;
+ 
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.contact_left_title {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.contact_left_title h2 {
+  font-weight: 700;
+  color: blueviolet;
+  font-size: 50px;
+  margin-bottom: 4px;
+}
+.contact_left_title hr {
+  border: none;
+  width: 120px;
+  background-color: blueviolet;
+  height: 8px;
+  border-radius: 8px;
+}
+.contact_inputs {
+  width: 400px;
+  height: 50px;
+  border: 0;
+  outline: none;
+  border-radius: 50px;
+  padding-left: 25px;
+  color: red;
+  font-weight: 600;
+}
+.contact_left_title textarea {
+  height: 190px;
+  width: 400px;
+  border-radius: 50px;
+  padding-left: 55px;
+}
+.contact_left_title button {
+  border: 0;
+  outline: none;
+  background-image: linear-gradient(270deg, #dad417, #c70808);
+  font-size: 20px;
+  padding: 15px 20px;
+  cursor: pointer;
+  border-radius: 50px;
+}
